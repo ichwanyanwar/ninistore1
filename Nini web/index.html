@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nini Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nini Store</h1>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#tentang">Tentang Kami</a></li>
+                <li><a href="#hubungi">Hubungi Kami</a></li>
+                <li><a href="#keranjang">Keranjang</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="home" class="hero">
+                <h2>Selamat Datang di Toko Kami</h2>
+                <p>Belanja berbagai produk terbaik dengan harga terjangkau. Kami menawarkan beragam produk dari berbagai kategori untuk memenuhi kebutuhan Anda.</p>
+            </section>
+            <section id="produk" class="product-list">
+                <h2>Produk Kami</h2>
+                <article class="product-item">
+                    <h3>Pod X Model 3 The Prediksi Bundling Liquid</h3>
+                    <img src="foom prediksi.webp" alt="Produk 1">
+                    <p>Setelah FOOM & Prediksi sukses dengan kolaborasi device pertama, FOOM x THE PREDIKSI hadir kembali dengan kolaborasi terbarunya FOOM POD X Model 3.</p>
+                    <p>Harga: Rp 185.000</p>
+                    <button data-product="Pod X Model 3 The Prediksi Bundling Liquid" data-price="185000">Beli Sekarang</button>
+                </article>
+                <article class="product-item">
+                    <h3>Pod X Weird Genius Bundling Liquid 15ml</h3>
+                    <img src="foom wg.webp" alt="Produk 2">
+                    <p>Limited Edition of FOOM X Weird Genius POD with the very special Smiley Edition is the dose of joy we all need right now, comes in three colors based on 3 members of Weird Genius's personalities - Soft Pink, Silver, and Space Grey.</p>
+                    <p>Harga: Rp 200.000</p>
+                    <button data-product="Pod X Weird Genius Bundling Liquid 15ml" data-price="200000">Beli Sekarang</button>
+                </article>
+                <article class="product-item">
+                    <h3>Pod Y Bundling Liquid 15 mL - Chrome Silver</h3>
+                    <img src="foom y.webp" alt="Produk 3">
+                    <p>FOOM Pod Y
+
+                        MEET Y.
+                        Device FOOM terbaru untuk pengalaman vaping lebih praktis, efisien dengan fitur yang lebih premium.</p>
+                    <p>Harga: Rp 300.000</p>
+                    <button data-product="Pod Y Bundling Liquid 15 mL - Chrome Silver" data-price="300000">Beli Sekarang</button>
+                </article>
+            </section>
+            <section id="tentang" class="about">
+                <h2>Tentang Kami</h2>
+                <p>FOOM Quality
+                    We develop FOOM based on extensive market research and detailed assessment of customers needs as well as behaviors. We ensure  the continuous improvement through continuous user feedback in order to provide the best user experience.
+                    
+                    We are committed to total customer satisfaction through providing consistently high quality products and service that meet the expectations of customers.
+                    
+                    1. Foom Stick is designed and developed with the combination of aesthetic and ergonomic, so that it’s not only provides the best appearance and desirable to customers, but is also comfortable when held and well-function when used.
+                    
+                    2. Foom Liquid provides satisfaction to meet the standards of adult smkers which tailored to customer’s taste bud and preferences. The raw material used for the product product has gone through strict clinical trial testing, Nicotine Salt is proven to provide and experience as an alternative sensation similar to smkng. 
+                    
+                    3. Foom Stick and Foom Liquid are the result of a world-class production that combines both excellence and features from global manufacturing and production standards.
+                    
+                    We believe that product quality is at the heart of our business and user satisfactions are our inspirations in developing Foom.</p>
+            </section>
+            <section id="hubungi" class="contact">
+                <h2>Hubungi Kami</h2>
+                <p>How can help you?</p>
+                <ul>
+                    <li>Email: foomindonesia@gmail.com</li>
+                    <li>Telepon: +62 822 9187 4816</li>
+                    <li>Alamat: Jl. Contoh No. 123, Jakarta, Indonesia</li>
+                </ul>
+                <p>Atau Anda bisa mengisi formulir kontak di bawah ini:</p>
+                <form>
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Kirim</button>
+                </form>
+            </section>
+            <section id="keranjang" class="cart">
+                <h2>Keranjang Belanja</h2>
+                <ul id="cart-items"></ul>
+                <p>Total: Rp <span id="total-price">0</span></p>
+                <button id="checkout">Checkout</button>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2025 Nini Store. Semua Hak Dilindungi.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
